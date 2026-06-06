@@ -16,11 +16,16 @@ int main() {
     PIB (float)
     Número de pontos turísticos (int)*/
     char estado[20];
+    char cidade[20];
     
 
-    printf("Qual o nome do estado?");
+    printf("Qual o nome do estado? ");
     scanf ("%s", &estado); 
-    printf("O estado é: %s", estado);
+    printf("Qual é o nome da cidade? ");
+    scanf("%s", &cidade);
+
+    printf("O estado é: %s\n", estado);
+    printf("A cidade é: %s\n", cidade);
     
     // Cadastro das Cartas:
     // Implemente a lógica para solicitar ao usuário que insira os dados das cidades
